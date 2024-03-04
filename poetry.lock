@@ -1599,6 +1599,20 @@ files = [
 ]
 
 [[package]]
+name = "mplcyberpunk"
+version = "0.7.1"
+description = "Add-on for Matplotlib to produce 'Cyberpunk' style plots"
+optional = false
+python-versions = "*"
+files = [
+    {file = "mplcyberpunk-0.7.1-py3-none-any.whl", hash = "sha256:09d7081ed413df253681baddebaebb5558dd143d737a695f4ed59eba9ba2cf3f"},
+    {file = "mplcyberpunk-0.7.1.tar.gz", hash = "sha256:d689560b86eacd428abb4f965df1d27249a86dbb1337666e985baf386e376194"},
+]
+
+[package.dependencies]
+matplotlib = "*"
+
+[[package]]
 name = "nbclient"
 version = "0.9.0"
 description = "A client library for executing notebooks. Formerly nbconvert's ExecutePreprocessor."
@@ -3213,4 +3227,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "60e9b0a7e4f0e2022206697ef4e92ffd781c47271b18325bb2636538f9fe3162"
+content-hash = "7e85423243ff1d09143091dc6b1be621499cb2c36af8fd612d7ee8249c215434"
