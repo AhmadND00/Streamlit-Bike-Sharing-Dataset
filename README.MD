@@ -23,7 +23,7 @@ poetry install
 
 Start the Streamlit app:
 ```
-poetry run streamlit run your_app.py
+poetry run streamlit run dashboard/dashboard.py
 ```
 
 This will start the Streamlit app in your web browser. You can now interact with the app and explore its features.
