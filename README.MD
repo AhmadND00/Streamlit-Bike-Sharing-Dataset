@@ -8,14 +8,15 @@ To get started with this project, follow these steps:
 
 Clone the repository to your local machine:
 ```
-git clone https://github.com/yourusername/your-streamlit-project.git
+git clone https://github.com/AhmadND00/Streamlit-Bike-Sharing-Dataset.git
 ```
 
 Change into the project directory:
 ```
 cd your-streamlit-project
 ```
-Install Poetry if you haven't already. You can find instructions for installing Poetry on the official website.
+Install Poetry if you haven't already. You can find instructions for installing Poetry on the [official website](https://python-poetry.org/docs/#installing-with-pipx).
+
 Install the project dependencies using Poetry:
 ```
 poetry install
