@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "submission"
+version = "0.1.0"
+description = ""
+authors = ["Ahmad <ahmadnd00@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.31.1"
+babel = "^2.14.0"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+scipy = "^1.12.0"
+matplotlib = "^3.8.3"
+seaborn = "^0.13.2"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
